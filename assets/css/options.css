@@ -1,0 +1,23 @@
+#Options {
+    position: relative;
+}
+
+#Options .overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/panRoof.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px); 
+    opacity: 0.7; 
+}
+
+h2 {
+    color: aqua;
+    z-index: 1;
+}
