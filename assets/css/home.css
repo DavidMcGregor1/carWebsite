@@ -4,3 +4,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.mainSentence {
+    text-align: center;
+}
+
+.secondSentence {
+    padding-top: 7%;
+    padding-left: 1%;
+}
+
+.homeText {
+    font-size: 25px;
+    padding-bottom: 0.1%;
+}

@@ -66,6 +66,16 @@ img {
   height: auto;
 }
 
+h2 {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.outfitFont {
+  font-family: 'Outfit', sans-serif;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
@@ -73,7 +83,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: black;
+  /* color: black; */
   text-align: center;
   margin-bottom: 1.5rem;
 }
