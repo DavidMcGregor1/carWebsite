@@ -77,7 +77,9 @@
 }
 
 .modPictures {
-    padding: 3%;
+    padding: 1%;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
     display: flex;
     flex-direction: column;
     /* width: 500px; */
@@ -123,31 +125,51 @@
     color: white;
 }
 
-#gallery {
-    line-height:0;
-    -webkit-column-count:2; /* split it into 5 columns */
-    -webkit-column-gap:10px; /* give it a 5px gap between columns */
-    -moz-column-count:2;
-    -moz-column-gap:10px;
-    column-count:2;
-    column-gap:10px;
-    
- }
 
- #gallery img {
-    width: 100% !important;
-    height: auto !important;
-    margin-bottom:10px; /* to match column gap */
- }
+/* .gallery {
+    width: 400px;
+    height: 700px; 
+    overflow-y: scroll;
+  }
+  
+  .gallery img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+   */
+
+
+   .gallery {
+    width: 100%; /* Set the initial width of the gallery container to 100% */
+    max-width: 400px; /* Set the maximum width of the gallery container */
+    height: 700px; /* Adjust the height of the gallery container as needed */
+    overflow-y: scroll;
+  }
+  
+  .gallery img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Adjust the margin between images as needed */
+  }
+  
+  @media (max-width: 600px) { /* Adjust the breakpoint as needed */
+    .gallery {
+      max-width: 100%; /* Set the maximum width of the gallery container to 100% on smaller screens */
+      height: auto; /* Allow the height to adjust dynamically on smaller screens */
+    }
+  }
+
+
+
+/* 
+
 
  @media (max-width: 1200px) {
     #gallery {
-     -moz-column-count:    4;
-     -webkit-column-count: 4;
-     column-count:         4;
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
     }
- }
+ } */
 
- #whiteS3Image {
-    width: 100px;
- }
