@@ -136,4 +136,11 @@ h2 {
     #SpecificationsMobile {
         display: inline;
     }
+
+
+    .container {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
 }

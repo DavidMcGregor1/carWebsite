@@ -1,28 +1,14 @@
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-const sections = document.querySelectorAll('section[id]')
+console.log("WOrking");
 
-function scrollActive(){
-    const scrollY = window.pageYOffset
+// <!---------- SPECIFICATIONS ---------!>
 
-    sections.forEach(current =>{
-        const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop - 50,
-            sectionId = current.getAttribute('id')
+var specNavLink = document.getElementById("specificationsNavLink");
 
-        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-        }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-        }
-    })
+if (window.matchMedia("(max-width: 775px)").matches) {
+  console.log("under 524px");
+  specNavLink.href = "#SpecificationsMobile";
+  console.log("mobile -> " + specNavLink.href);
+} else {
+  specNavLink.href = "#Specifications";
+  console.log("specs -> " + specNavLink.href);
 }
-window.addEventListener('scroll', scrollActive)
-
-
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-function scrollHeader(){
-    const header = document.getElementById('header')
-    // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
-    if(this.scrollY >= 80) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
-}
-window.addEventListener('scroll', scrollHeader)
