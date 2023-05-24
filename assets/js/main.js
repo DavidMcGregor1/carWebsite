@@ -4,7 +4,7 @@ console.log("WOrking");
 
 var specNavLink = document.getElementById("specificationsNavLink");
 
-if (window.matchMedia("(max-width: 775px)").matches) {
+if (window.matchMedia("(max-width: 1015px)").matches) {
   console.log("under 524px");
   specNavLink.href = "#SpecificationsMobile";
   console.log("mobile -> " + specNavLink.href);

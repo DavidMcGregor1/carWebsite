@@ -160,3 +160,12 @@ h2 {
     color: white;
     transform: rotateY(180deg);
   }
+
+
+    /* ---------- Where text spills over div ---------- */
+    @media screen and (max-width: 650px) {
+    
+  
+
+        
+    }

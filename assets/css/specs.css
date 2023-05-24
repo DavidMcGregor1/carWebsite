@@ -124,7 +124,9 @@ h2 {
 
 
 
-
+#specificationsMobileTitle {
+    padding-top: 7%;
+}
 
 
 
@@ -144,3 +146,17 @@ h2 {
     }
 
 }
+
+@media screen and (max-width: 980px) {
+    
+  
+  
+#specificationsMobileTitle {
+    padding-top: 10%;
+}
+    
+  }
+
+
+
+  
