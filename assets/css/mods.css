@@ -38,6 +38,31 @@
 
 }
 
+
+
+@media screen and (max-width: 1485px) {
+ 
+  #modDivs {
+    padding-top: 3%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+
+}
+
+.modificationsMainTitle {
+  font-size: var(--h1-font-size);
+/* color: black; */
+text-align: center;
+margin-bottom: -2%;
+margin-top: -2%;
+}
+
+}
+
+
+
+
 .modDivs div {
     padding: 15px;
     width: 300px;
@@ -183,14 +208,12 @@
 
 
     #modDivs {
-      padding-top: 5%;
-      display: flex;
-      gap: 6%;
-      justify-content: center;
-  
-  }
+    padding-top: 5%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
 
-  
+}
 
   }
 
@@ -201,6 +224,9 @@
     }
 
   }
+
+  
+
 
   
 
