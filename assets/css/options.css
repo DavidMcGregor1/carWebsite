@@ -162,10 +162,175 @@ h2 {
   }
 
 
-    /* ---------- Where text spills over div ---------- */
-    @media screen and (max-width: 650px) {
-    
-  
+    /* ---------- OPTIONS MOBILE ---------- */
+   
 
-        
+    
+  #OptionsMobile {
+    /* background-image: url(../img/panRoof.jpg);
+    background-color: aqua; */
+    position: relative;
+  }
+
+
+    #OptionsMobile .overlay {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/panRoof.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(5px); 
+        opacity: 0.7; 
     }
+
+    #OptionsMobile {
+        display: none;
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 1017px) {
+        #Options {
+            display: none;
+        }
+    
+        #OptionsMobile {
+            display: inline;
+        }
+
+        .container {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    
+    }
+
+    
+
+
+    .mobileOption {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 1%;
+        background-color: #434242;
+        height: 22vh;
+        width: 94vw;
+        margin-bottom: 3%;
+    }
+
+    #techPackMobile {
+        margin-top: 5%;
+    }
+
+    #optionsMobileTitle {
+        padding-top: 10%;
+    }
+
+    .optionsMobileDivSubTitle {
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        color: white;
+        padding-bottom: 1%;
+    }
+
+    .optionsMobileDivText {
+        color: white;
+        font-size: 15px;
+    }
+
+
+    @media screen and (max-width: 895px) {
+    
+        .optionsMobileDivText {
+            font-size: 14px;
+        }
+
+    }
+
+    @media screen and (max-width: 833px) {
+    
+        .optionsMobileDivText {
+            font-size: 13.5px;
+        }
+
+    }
+
+    @media screen and (max-width: 806px) {
+    
+        .optionsMobileDivText {
+            font-size: 13.4px;
+        }
+
+    }
+
+    @media screen and (max-width: 797px) {
+    
+        .optionsMobileDivText {
+            font-size: 13.1px;
+        }
+
+    }
+
+    @media screen and (max-width: 780px) {
+
+        #optionsMobileTitle {
+            padding-top: 7%;
+        }
+    
+        .optionsMobileDivText {
+            font-size: 12.8px;
+        }
+
+    }
+
+    @media screen and (max-width: 765px) {
+    
+        .optionsMobileDivText {
+            font-size: 12.5px;
+        }
+
+    }
+
+    @media screen and (max-width: 525px) {
+    
+        .optionsMobileDivText {
+            font-size: 12.3px;
+        }
+
+    }
+
+    @media screen and (max-width: 513px) {
+    
+        .optionsMobileDivText {
+            font-size: 12px;
+        }
+
+    }
+
+    @media screen and (max-width: 502px) {
+    
+        .optionsMobileDivText {
+            font-size: 11.5px;
+        }
+
+    }
+
+    @media screen and (max-width: 377px) {
+    
+        .optionsMobileDivText {
+            font-size: 11px;
+        }
+
+    }
+
+
+    

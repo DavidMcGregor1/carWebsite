@@ -12,3 +12,14 @@ if (window.matchMedia("(max-width: 1015px)").matches) {
   specNavLink.href = "#Specifications";
   console.log("specs -> " + specNavLink.href);
 }
+
+var optionsNavLink = document.getElementById("optionsNavLink");
+
+if (window.matchMedia("(max-width: 1015px)").matches) {
+  console.log("under 524px");
+  optionsNavLink.href = "#OptionsMobile";
+  console.log("mobile -> " + optionsNavLink.href);
+} else {
+  optionsNavLink.href = "#Options";
+  console.log("specs -> " + optionsNavLink.href);
+}
